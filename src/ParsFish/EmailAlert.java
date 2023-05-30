@@ -35,7 +35,7 @@ public class EmailAlert {
                     InternetAddress.parse("lifmen007@gmail.com")
             );
             message.setRecipients(Message.RecipientType.CC,
-                    InternetAddress.parse("popov_e@goldapple.ru"));
+                    InternetAddress.parse(""));
             message.setSubject("Обнарурежены изменения в доменах");
             message.setText(str);
 
